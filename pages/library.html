@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library | Bling Game Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">
+            <img src="../assets/mockups/logo.png" alt="Bling Game Center logo" />
+          </div>
+          <div class="brand-copy">
+            <span class="eyebrow">Arcade</span>
+            <h1>Bling</h1>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-item" href="../index.html"><span class="nav-icon">⌂</span> <span>Home</span></a>
+          <a class="nav-item" href="./games.html"><span class="nav-icon">▣</span> <span>Games</span></a>
+          <a class="nav-item" href="./trending.html"><span class="nav-icon">↗</span> <span>Trending</span></a>
+          <a class="nav-item active" href="./library.html"><span class="nav-icon">▤</span> <span>Library</span></a>
+          <a class="nav-item" href="./downloads.html"><span class="nav-icon">↓</span> <span>Downloads</span></a>
+          <a class="nav-item" href="./profile.html"><span class="nav-icon">◉</span> <span>Profile</span></a>
+        </nav>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div class="search-wrap">
+            <span class="search-icon">⌕</span>
+            <input type="text" placeholder="Search your library..." />
+          </div>
+
+          <div class="topbar-actions">
+            <button class="theme-toggle" aria-label="Toggle theme">
+              <span class="toggle-track"><span class="toggle-thumb"></span></span>
+            </button>
+            <div class="avatar small">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+                alt="Profile avatar"
+              />
+            </div>
+          </div>
+        </header>
+
+        <section class="page-header">
+          <div>
+            <span class="badge badge-purple">Saved</span>
+            <h2>Your library</h2>
+          </div>
+        </section>
+
+        <section class="content-block">
+          <div class="playlist">
+            <div class="playlist-card">
+              <div class="playlist-thumb playlist-one"></div>
+              <div class="playlist-copy">
+                <h4>Cyber Frontier</h4>
+                <span>Level 27 • 1h 42m</span>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="playlist-thumb playlist-two"></div>
+              <div class="playlist-copy">
+                <h4>Storm Run</h4>
+                <span>Level 14 • 58m</span>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="playlist-thumb playlist-three"></div>
+              <div class="playlist-copy">
+                <h4>Nova Drift</h4>
+                <span>Level 8 • 41m</span>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="playlist-thumb playlist-four"></div>
+              <div class="playlist-copy">
+                <h4>Quartz Runner</h4>
+                <span>Level 19 • 1h 12m</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="../js/app.js"></script>
+  </body>
+</html>
