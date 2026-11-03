@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trending | Bling Game Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">
+            <img src="../assets/mockups/logo.png" alt="Bling Game Center logo" />
+          </div>
+          <div class="brand-copy">
+            <span class="eyebrow">Arcade</span>
+            <h1>Bling</h1>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-item" href="../index.html"><span class="nav-icon">⌂</span> <span>Home</span></a>
+          <a class="nav-item" href="./games.html"><span class="nav-icon">▣</span> <span>Games</span></a>
+          <a class="nav-item active" href="./trending.html"><span class="nav-icon">↗</span> <span>Trending</span></a>
+          <a class="nav-item" href="./library.html"><span class="nav-icon">▤</span> <span>Library</span></a>
+          <a class="nav-item" href="./downloads.html"><span class="nav-icon">↓</span> <span>Downloads</span></a>
+          <a class="nav-item" href="./profile.html"><span class="nav-icon">◉</span> <span>Profile</span></a>
+        </nav>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div class="search-wrap">
+            <span class="search-icon">⌕</span>
+            <input type="text" placeholder="Search trending titles..." />
+          </div>
+
+          <div class="topbar-actions">
+            <button class="theme-toggle" aria-label="Toggle theme">
+              <span class="toggle-track"><span class="toggle-thumb"></span></span>
+            </button>
+            <div class="avatar small">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+                alt="Profile avatar"
+              />
+            </div>
+          </div>
+        </header>
+
+        <section class="page-header">
+          <div>
+            <span class="badge badge-purple">Live</span>
+            <h2>Trending now</h2>
+          </div>
+        </section>
+
+        <section class="content-block">
+          <div class="trending-list">
+            <article class="trending-item">
+              <div class="trending-cover cover-a"></div>
+              <div class="trending-meta">
+                <span class="rank">01</span>
+                <div>
+                  <h3>Night Runner VR</h3>
+                  <p>3.4M viewers • Racing • 4.9</p>
+                </div>
+              </div>
+              <span class="pill red">Hot</span>
+            </article>
+
+            <article class="trending-item">
+              <div class="trending-cover cover-b"></div>
+              <div class="trending-meta">
+                <span class="rank">02</span>
+                <div>
+                  <h3>Pixel Quest</h3>
+                  <p>2.8M viewers • Adventure • 4.8</p>
+                </div>
+              </div>
+              <span class="pill purple">Fresh</span>
+            </article>
+
+            <article class="trending-item">
+              <div class="trending-cover cover-c"></div>
+              <div class="trending-meta">
+                <span class="rank">03</span>
+                <div>
+                  <h3>Shadow Arena</h3>
+                  <p>2.1M viewers • Shooter • 4.7</p>
+                </div>
+              </div>
+              <span class="pill green">Boosted</span>
+            </article>
+
+            <article class="trending-item">
+              <div class="trending-cover cover-d"></div>
+              <div class="trending-meta">
+                <span class="rank">04</span>
+                <div>
+                  <h3>Moon Tactics</h3>
+                  <p>1.8M viewers • Strategy • 4.8</p>
+                </div>
+              </div>
+              <span class="pill gold">New</span>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="../js/app.js"></script>
+  </body>
+</html>
